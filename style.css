@@ -1,0 +1,140 @@
+html {
+    font-family: 'Jost', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+
+/* General */
+.container {
+    width: 1440px;
+    display: block;
+    padding: 0px 50px;
+}
+
+/* Header */
+.header__container {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 20px; */
+}
+.header__logo {
+    color: #000000b2;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+}
+.nav__item {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #494949;
+    margin-right: 15px;
+    transition: background .20s ease;
+    font-weight: 600;
+    height: 50px;
+    padding: 0px 15px;
+    /* border-bottom: 3px solid red; */
+}
+.nav__item:hover {
+    background-color: #e8e8e8;
+}
+.nav__item:focus {
+    outline: 3px solid #e8e8e8;
+}
+.nav__item:active {
+    background-color: #e8e8e8;
+}
+
+/* Hover */
+
+.hero__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero__heading {
+    font-size: 40px;
+    color: #363636;
+    margin-bottom: 15px;
+}
+.hero__discr {
+    font-size: 24px;
+    color: #4a4a44;
+    margin-bottom: 24px;
+}
+.hero__photo {
+    max-width: 200px;
+    border-radius: 9999px;
+    margin-bottom: 20px;
+}
+.hero__discr {
+    display: block;
+}
+.social__item {
+    margin-right: 5px;
+}
+.social__link {
+    transition: fill .20s ease;
+}
+.social__link:hover path{
+    fill: #485ec6
+}
+.social__link:focus svg {
+    fill: #485ec6
+}
+.social__link:active path {
+    fill: #485ec6
+}
+
+/* Description */
+
+.description__text {
+    color: #4a4a44;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15%;
+}
+
+/* Footer */
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    position: fixed; 
+    bottom: 0;
+}
+.footer__text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    font-style: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4a4a44;
+}
+
+
+
+
