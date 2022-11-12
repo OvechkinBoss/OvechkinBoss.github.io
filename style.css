@@ -62,7 +62,7 @@ a {
     background-color: #e8e8e8;
 }
 
-/* Hover */
+/* Hero */
 
 .hero__about {
     display: flex;
@@ -87,12 +87,10 @@ a {
 .hero__discr {
     display: block;
 }
-.social__item:not (:last_child) {
+.social__item:not(:last-child) {
     margin-right: 5px;
 }
 .social__link {
-    margin-right: auto;
-    margin-left: auto;
     transition: fill .20s ease;
 }
 .social__link:hover path{
@@ -110,7 +108,7 @@ a {
 .description__text {
     color: #4a4a44;
     font-weight: 400;
-    font-size: 19.2px;
+    font-size: 20px;
     line-height: 30px;
     margin-bottom: 15%;
 }
@@ -123,6 +121,10 @@ a {
     background-color: #fafafa;
     position: fixed; 
     bottom: 0;
+    transition: fill .3 ease;
+}
+.footer__text:hover path{
+    fill: red;
 }
 .footer__text {
     display: flex;
@@ -136,6 +138,7 @@ a {
     line-height: 30px;
     color: #4a4a44;
 }
+
 
 
 
