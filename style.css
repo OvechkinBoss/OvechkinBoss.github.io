@@ -135,6 +135,8 @@ a {
     margin-right: 5px;
 }
 .social__link {
+    margin-right: auto;
+    margin-left: auto;
     transition: fill .20s ease;
 }
 .social__link:hover path{
