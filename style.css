@@ -16,9 +16,9 @@ a {
 
 /* General */
 .container {
-    width: 1440px;
+    width: 100%;
     display: block;
-    padding: 0px 50px;
+    padding: 0% 20%;
 }
 
 /* Header */
