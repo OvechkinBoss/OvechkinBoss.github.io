@@ -131,7 +131,7 @@ a {
 .hero__discr {
     display: block;
 }
-.social__item {
+.social__item:not(:last_child) {
     margin-right: 5px;
 }
 .social__link {
