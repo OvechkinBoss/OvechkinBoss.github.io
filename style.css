@@ -87,7 +87,7 @@ a {
 .hero__discr {
     display: block;
 }
-.social__item:not(:last_child) {
+.social__item:not (:last_child) {
     margin-right: 5px;
 }
 .social__link {
