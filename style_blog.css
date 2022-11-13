@@ -244,5 +244,8 @@ a {
     .blog__container {
         padding: 5% 5%;
     }
+    .footer__container {
+        position: inherit;
+    }
 
 }
