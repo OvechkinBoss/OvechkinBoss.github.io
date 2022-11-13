@@ -119,9 +119,9 @@ a {
     display: flex;
     align-items: center;
     background-color: #fafafa;
-    position: absolute;
-    bottom: 0;
     flex: 0 0 auto;
+    position: fixed;
+    bottom: 0;
     transition: fill .3 ease;
 }
 .footer__text:hover path{
