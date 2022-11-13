@@ -191,6 +191,9 @@ a {
     line-height: 30px;
     color: #4a4a44;
 }
+.footer__text:hover path{
+    fill: red;
+}
 
 /* Adaptive */
 
