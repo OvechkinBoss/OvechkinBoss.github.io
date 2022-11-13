@@ -175,6 +175,8 @@ a {
     display: flex;
     align-items: center;
     flex: 0 0 auto;
+    position: relative;
+    bottom: 0;
     background-color: #fafafa;
     /* position: fixed; 
     bottom: 0; */
